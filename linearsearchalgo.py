@@ -2,13 +2,14 @@
 # If x is present then return its location,
 # otherwise return -1
 
+def test():
+	return 0
 
-def search(arr, n, x):
-
-	for i in range(0, n):
-        #Complete the function here
+def search(arr,n,x):
+	for i in range(0,n):
+		if x == arr[i]:
+			return i
 	return -1
-
 
 # Driver Code
 arr = [2, 3, 4, 10, 40]
